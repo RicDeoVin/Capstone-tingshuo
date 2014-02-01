@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+<!-- Handle text for timer(topRight)  -->
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="5sp"
+        android:text="@string/startTime"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="30sp" />
+<!-- toggle night mode -->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NightMode" />
+<!-- display chinese characters to read alongside -->
+    <TextView
+        android:id="@+id/hanziTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="center"
+        android:textSize="50sp" />
+<!-- English characters appear near the bottom(on top of main buttons) -->
+    <TextView
+        android:id="@+id/instructionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="40sp" />
+<!-- Inner most layout (wraps the buttons)-->
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+<!-- Left most button(plays audio) -->
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/playButtonLabel"
+            android:textSize="70sp" />
+<!-- 2nd from left(displays Chinese chars in center) -->
+        <Button
+            android:id="@+id/hanziButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/hanziButtonLabel"
+            android:textSize="70sp" />
+<!-- 3rd from left(repeats the audio) -->
+        <Button
+            android:id="@+id/repeatButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/repeatButtonLabel"
+            android:textSize="70sp" />
+<!-- Pause the timer and hides the chinese text -->
+        <Button
+            android:id="@+id/pauseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/pauseButtonLabel"
+            android:textSize="70sp" />
+        
+    </LinearLayout>
+
+</LinearLayout>
