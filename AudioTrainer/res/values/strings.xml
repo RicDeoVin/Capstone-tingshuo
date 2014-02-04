@@ -14,4 +14,22 @@
     <string name="quit">Confirm quit</string>
     <string name="reallyQuit">Quit?  This will reset timer and discard current clip.</string>
     <string name="NightMode">Night Mode</string>
+    <string name="nightMode_toast">Night Mode</string>
+    <string name="dayMode_toast">Day Mode</string>
+    <string name="updatingFiles_toast">Updating Files</string>
+    <string name="updatingCompleted_toast">Updating Completed</string>
+    <string name="sending_toast">Sending</string>
+    <string name="sent_toast">Sent</string>
+    <string name="unableToSend_toast">Unable To Send</string>
+    <string name="chineseMode_toast">Chinese Mode</string>
+    <string name="englishMode_toast">English Mode</string>
+    <string name="totalUsage_toast">usage</string>
+    <string name="lookUpButton">Look Up</string>
+    <string name="showHistoryButton">Show History</string>
+    <string name="timeSpentButton">Total Time Spent</string>
+    <string name="englishButton">English</string>
+    <string name="chineseButton">Chinese</string>
+    <string name="shareButton">Share</string>
+    <string name="updateButton">Update</string>
+    <string name="exit">Exit</string>
 </resources>
